@@ -1,23 +1,31 @@
+import react,{useState} from "react"
 import logo from './logo.svg';
-import './App.css';
+//import './App.css';
+import {Button } from 'react-bootstrap';
+import Cart from './Cart';
+
 
 function App() {
+  const [first,SetFirst]=useState(0);
+  const [second, setsecond] = useState(0);
+  const [third, setthird] = useState(0);
+  const [fourth, setfourth] = useState(0);
+  const [c,Setc]=useState(0);
+  const [c2, setc2] = useState(0);
+  const [c3, setc3] = useState(0);
+  const [c4, setc4] = useState(0);
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+     <Cart first={first} SetFirst={SetFirst} 
+        second={second} setsecond={setsecond}
+        third={third} setthird={setthird}
+        fourth={fourth} setfourth={setfourth}
+        c={c} Setc={Setc}
+        c2={c2} setc2={setc2}
+        c3={c3} setc3={setc3}
+        c4={c4} setc4={setc2}
+     />
+     
     </div>
   );
 }
