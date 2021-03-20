@@ -1,3 +1,17 @@
 .s{
     background-color: pink;
 }
+/* .disable{
+    background-color: yellow;
+    box-shadow: none;
+    opacity:0.9;
+    pointer-events: none;
+    color: yellow;
+} */
+button:disabled,
+button[disabled]{
+    
+  border: 1px solid #999999;
+  background-color: #cccccc;
+  color: #666666;
+}
