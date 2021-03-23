@@ -1,17 +1,42 @@
-.s{
-    background-color: pink;
+.cart{
+  display:grid;
+  background-color: lightgrey;
+ 
+ 
 }
-/* .disable{
-    background-color: yellow;
-    box-shadow: none;
-    opacity:0.9;
-    pointer-events: none;
-    color: yellow;
-} */
-button:disabled,
-button[disabled]{
-    
-  border: 1px solid #999999;
-  background-color: #cccccc;
-  color: #666666;
+.head{
+  text-align:50% right;
+}
+.cart_quantities{
+  background-color: white;
+  
+  /* margin-top: 10%;
+  margin-bottom: 10%;
+  margin-right: 10%;
+  margin-left: 10%; */
+  margin-top:5%;
+  margin-bottom: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
+  
+
+
+}
+.button{
+ 
+  float :right ;
+  width: 30%;
+  background-color: blue;
+  color: white;
+  font-size: large;
+}
+.first_row{
+  background-color: lightgray;
+}
+table, th, td {
+  border: 1px  ;
+ 
+}
+.hideRow{
+ display: none;
 }
